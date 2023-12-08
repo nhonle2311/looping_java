@@ -18,8 +18,8 @@ public class interestRate {
 
         interRate = scanner.nextDouble();
         double totalInterestRate = 0;
-        for (int i = 0; i < money; i++) {
-            totalInterestRate += money * (interRate/100)/12 * month;
+        for (int i = 0; i < month; i++) {
+            totalInterestRate += money * (interRate/100)/12;
         }
         System.out.println(totalInterestRate);
     }
